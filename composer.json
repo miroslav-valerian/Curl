@@ -1,0 +1,30 @@
+{
+	"name": "valerian/curl",
+	"type": "library",
+	"description": "Curl wrapper",
+	"keywords": ["curl"],
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Miroslav Valerian",
+			"homepage": "http://www.miroslav-valerian.cz",
+			"email": "info@miroslav-valerian.cz"
+		}
+	],
+	"support": {
+		"email": "info@miroslav-valerian.cz",
+		"issues": "https://github.com/miroslav-valerian/Curl/issues"
+	},
+	"require": {
+		"php": ">=5.3.1",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Curl": "src/"
+		},
+		"classmap": [
+			"src/Curl/Exceptions.php"
+		]
+	}
+}

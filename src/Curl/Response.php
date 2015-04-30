@@ -1,13 +1,13 @@
 <?php
 
+namespace Curl;
+
 /**
  * Response
  * 
  * @author Ing. Miroslav Valerián <info@miroslav-valerian.cz>
  * 
  */
-
-namespace Curl;
 
 class Response
 {
