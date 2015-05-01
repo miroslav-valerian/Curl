@@ -19,6 +19,10 @@
 		"php": ">=5.3.1",
 		"ext-curl": "*"
 	},
+	"require-dev": {
+		"php": ">=5.3.1",
+		"ext-curl": "*"
+	},
 	"autoload": {
 		"psr-0": {
 			"Valerian\\Curl": "src/"
