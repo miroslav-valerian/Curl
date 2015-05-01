@@ -22,9 +22,6 @@
 	"autoload": {
 		"psr-0": {
 			"Curl": "src/"
-		},
-		"classmap": [
-			"src/Curl/Exceptions.php"
-		]
+		}
 	}
 }
