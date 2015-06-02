@@ -15,6 +15,7 @@
 		"email": "info@miroslav-valerian.cz",
 		"issues": "https://github.com/miroslav-valerian/Curl/issues"
 	},
+	"version": "v0.1.0",
 	"require": {
 		"php": ">=5.3.1",
 		"ext-curl": "*"
@@ -24,8 +25,8 @@
 		"ext-curl": "*"
 	},
 	"autoload": {
-		"psr-0": {
-			"Valerian\\Curl": "src/"
+		"psr-4": {
+			"Valerian\\": "src/"
 		}
 	}
 }
